@@ -1,6 +1,6 @@
 import React from "react";
 import { postRequest } from "../utils/request";
-import ImgUI from "./ImgUi";
+import ImgUI from "./ImgUI";
 import {
   useFileContext,
   uploadFileStart,
