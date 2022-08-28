@@ -9,7 +9,7 @@ const CommentsUi = ({ name }) => {
   if (state.comments.length === 0) {
     return null;
   }
-  console.log(state.comments);
+
   const commentArr = state.comments.find((c) => c.name === name);
 
   return (

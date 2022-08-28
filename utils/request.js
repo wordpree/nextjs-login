@@ -9,7 +9,6 @@ const postRequest = async (url, data) => {
 };
 
 const sendLoginRequest = async (url, data) => {
-  console.log(data);
   const res = await axios.post(url, data);
   return await res.data;
 };
