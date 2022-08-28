@@ -5,7 +5,7 @@ import { useFileContext } from "../utils/context";
 
 const ImgUI = () => {
   const [state] = useFileContext();
-  const { images, status } = state;
+  const { images } = state;
   if (!state.images) {
     return null;
   }
