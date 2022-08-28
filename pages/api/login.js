@@ -1,7 +1,7 @@
 const sleep = (t) => new Promise((resolve) => setTimeout(resolve, t));
 
 export default async function handler(req, res) {
-  await sleep(400); // fake server side handling
+  await sleep(100); // fake server side handling
   if (req.method === "POST") {
     const { name, email } = req.body;
     if (name === "testing" && email === "testing@tandm.ai") {
