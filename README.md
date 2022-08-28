@@ -27,3 +27,6 @@ More details about the app
 - There is no database so the state only saves in the frontend.
 - Support upload files from local computer. Save to server only transfer files to the public folder.
 - Support comments on a specific file.
+- To walk through all the provided functionalities, please don't refresh the page.
+- Login successful will re-direct user to a page which user can upload files.
+- There is no logout functionality.
